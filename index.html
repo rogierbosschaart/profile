@@ -10,20 +10,69 @@
   </head>
 
   <body>
+    <header>
+      <h4>Rogier Bosschaart</h4>
+      <nav>
+        <a href="#home">HOME</a> |
+        <a href="#about-me">ABOUT ME</a> |
+        <a href="#painting">PAINTING</a> |
+        <a href="#follow-me">FOLLOW ME</a>
+      </nav>
+    </header>
     <div class="container">
-      <div class="card">
+      <div class="card" id="home">
         <img src="images/profile_pic.png" alt="Profile picture of Rogier Bosschaart" id="profile-pic">
         <h1>Rogier Bosschaart</h1>
-        <h2>Programmer</h2>
-        <a href="https://rogierbosschaart.com/" target="_blank"><button>Learn More About Me</button></a>
+        <h2 id="subheader">Programmer</h2>
+        <a href="https://rogierbosschaart.com/" target="_blank"><button class="btn-one">Learn More About Me</button></a>
       </div>
 
-      <div class="card">
+      <div class="card" id="about-me">
         <h2>About me</h2>
         <p>I've been coding for a little while now and starting to get better and better. I have mostly done front end so far but after this Le Wagon bootcamp, I'll be a pro at the backend aswell.</p>
+        <h3>What I code</h3>
+        <ul>
+          <li>HTML, CSS</li>
+          <li>JavaScript</li>
+          <li>Ruby</li>
+          <li>Ruby on Rails</li>
+          <li>PHP</li>
+          <li>fa-github</li>
+        </ul>
       </div>
 
-      <div class="card">
+      <div class="card" id="painting">
+        <h2>Painting</h2>
+        <div>
+          <figure>
+            <img src="images/RogierBosschaart_TheKnot_2024_AcrylicOnWood_40x30inch.jpg" alt="" class="art-pic">
+            <figcaption><strong>The Knot, 2024</strong><br>Acrylic on wood panel<br>40x30 inch</figcaption>
+          </figure>
+          <figure>
+            <img src="images/RogierBosschaart_TheVeil_2024_AcrylicOnWood_40x30inch.jpg" alt=""class="art-pic">
+            <figcaption><strong>The Veil, 2024</strong><br>Acrylic on wood panel<br>40x30 inch</figcaption>
+          </figure>
+          <figure>
+            <img src="images/RogierBosschaart_TheSpaceBetween_2024_AcrylicOnWood_40x30inch.jpg" alt=""class="art-pic">
+            <figcaption><strong>The Space Between, 2024</strong><br>Acrylic on wood panel<br>40x30 inch</figcaption>
+          </figure>
+          <figure>
+            <img src="images/RogierBosschaart_OASP_2022.png" alt="" class="art-pic">
+            <figcaption><strong>Obviously a self portrait, 2022</strong><br>Acrylic on wood panel<br>40x30 inch</figcaption>
+          </figure>
+          <figure>
+            <img src="images/RogierBosschaart_Lotte_2022.png" alt="" class="art-pic">
+            <figcaption><strong>Lotte, 2022</strong><br>Acrylic on wood panel<br>40x30 inch</figcaption>
+          </figure>
+          <figure>
+            <img src="images/RogierBosschaart_Aya_2022.png" alt="" class="art-pic">
+            <figcaption><strong>Aya, 2022</strong><br>Acrylic on wood panel<br>40x30 inch</figcaption>
+          </figure>
+
+        </div>
+      </div>
+
+      <div class="card" id="follow-me">
         <h2>Follow me</h2>
         <a href="https://www.instagram.com/rogier_bosschaart/">
           <i class="fa-brands fa-instagram"></i>
